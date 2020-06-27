@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\zalkar\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'css:watch'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v12.16.1
+4 verbose run-script [ 'precss:watch', 'css:watch', 'postcss:watch' ]
+5 info lifecycle scss-project@1.0.0~precss:watch: scss-project@1.0.0
+6 silly lifecycle scss-project@1.0.0~precss:watch: no script for precss:watch, continuing
+7 info lifecycle scss-project@1.0.0~css:watch: scss-project@1.0.0
+8 verbose lifecycle scss-project@1.0.0~css:watch: unsafe-perm in lifecycle true
+9 verbose lifecycle scss-project@1.0.0~css:watch: PATH: C:\Users\zalkar\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\scss-projects\scss-project\node_modules\.bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\Users\Zalkar\AppData\Local\Microsoft\WindowsApps;C:\Users\Zalkar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Zalkar\AppData\Local\atom\bin;C:\Users\zalkar\AppData\Local\Microsoft\WindowsApps;C:\Users\Zalkar\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2019.2.3\bin;
+10 verbose lifecycle scss-project@1.0.0~css:watch: CWD: C:\scss-projects\scss-project
+11 silly lifecycle scss-project@1.0.0~css:watch: Args: [ '/d /s /c', 'npm run css && node-sass scss/ -wo css' ]
+12 silly lifecycle scss-project@1.0.0~css:watch: Returned: code: 1  signal: null
+13 info lifecycle scss-project@1.0.0~css:watch: Failed to exec css:watch script
+14 verbose stack Error: scss-project@1.0.0 css:watch: `npm run css && node-sass scss/ -wo css`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Users\zalkar\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at EventEmitter.emit (events.js:311:20)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Users\zalkar\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at ChildProcess.emit (events.js:311:20)
+14 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+15 verbose pkgid scss-project@1.0.0
+16 verbose cwd C:\scss-projects\scss-project
+17 error Windows_NT 10.0.18363
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\zalkar\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "css:watch"
+19 error node v12.16.1
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error scss-project@1.0.0 css:watch: `npm run css && node-sass scss/ -wo css`
+22 error Exit status 1
+23 error Failed at the scss-project@1.0.0 css:watch script 'npm run css && node-sass scss/ -wo css'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the scss-project package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     npm run css && node-sass scss/ -wo css
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs scss-project
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls scss-project
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
